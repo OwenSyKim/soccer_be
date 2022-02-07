@@ -12,7 +12,7 @@ app.use(express.json())
 app.use(cors())
 
 app.get('/', cors(), async (req,res) => {
-    res.send('rickshouse soccer api')
+    res.send('Kevin Owen soccer api')
 })
 
 app.get('/team', cors(), async (req,res) => {
